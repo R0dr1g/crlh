@@ -7,9 +7,11 @@ def repeat_message(message, number):
 print()
 print("Message :")
 message = input()
-print("Number of times you want to repeat the message")
+print()
+print("Number of times you want to repeat the message :")
 try:
-    number = int(input())
+    number = int()
+    print()
     repeat_message(message, number)
 except ValueError:
     print("Ain't a number nigga")
