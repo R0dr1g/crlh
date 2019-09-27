@@ -2,7 +2,7 @@ print("F5?")
 
 reply = input()
 
-if reply = "Gui":
+if reply=="Gui":
     print("Guilherme Nobre-Guerreiro Luis Pires")
-if reply = "Ba":
+if reply=="Ba":
     print("Abram o caderno de fisica")
