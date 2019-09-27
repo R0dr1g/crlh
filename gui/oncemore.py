@@ -17,6 +17,6 @@ while finish == False:
     except ValueError:
         print("Isso n é numero crlho")
 
-    g = input(Queres continuar crlh (ye/nah nigga))
+    g = input("Queres continuar crlh (ye/nah nigga)")
     if (m != "ye"):
         finish = True
