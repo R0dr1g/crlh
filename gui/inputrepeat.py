@@ -14,5 +14,6 @@ try:
     number = int(input())
     print()
     repeat_message(message, number)
+    print()
 except ValueError:
-    print("Ain't a number nigga")
+    print("Ain't a number")
