@@ -18,5 +18,5 @@ while finish == False:
         print("Isso n é numero crlho")
 
     g = input("Queres continuar crlh (ye/nah nigga)")
-    if (m != "ye"):
+    if (g != "ye"):
         finish = True
