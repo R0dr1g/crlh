@@ -10,8 +10,8 @@ message = input()
 print()
 print("Number of times you want to repeat the message :")
 try:
-    number = input(int())
+    number = int(input())
     print()
-    repeat_message(message, number)
+    repeat_message(message)
 except ValueError:
     print("Ain't a number nigga")
