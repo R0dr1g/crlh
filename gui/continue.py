@@ -4,10 +4,9 @@ while finish == False:
 
     m = input()
 
-    if (m !="Yes"):
+    if m == "Yes":
         finish = False
-    if(m !="No"):
-        finish = True
+    if m == "No":
+        Finish = True
     else:
         print("I don't understand you, sorry!")
-    
