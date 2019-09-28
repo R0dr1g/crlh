@@ -10,4 +10,3 @@ while finish == False:
         finish = True
     else:
         print("I don't understand you, sorry!")
-        finish = False
