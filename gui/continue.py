@@ -5,7 +5,7 @@ while finish == False:
 
     if(m =="Yes"):
         finish = False
-    if(m =="No"):
-        Finish = True
-    else:
-        print("I don't understand you, sorry!")
+if(m =="No"):
+    Finish = True
+else:
+    print("I don't understand you, sorry!")
