@@ -8,5 +8,5 @@ while finish == False:
         finish = False
     if m == "No":
         Finish = True
-    else:
+    if (m != "No" or "Yes")
         print("I don't understand you, sorry!")
