@@ -1,10 +1,12 @@
-print("Do you want to continue (yes/no)")
+finish = False
+while finish = False:
+    print ("Do you want to continue ?? (Yes/No)")
 
-answer = input()
+    m = input()
 
-if (answer !="No"):
-    finish = True
-if (answer !="Yes"):
+if (m !="Yes"):
     finish = False
+if(m !="No"):
+    finish = True
 else:
-    print("I don't understand you, sorry!")
+    print("I don't understand you, sorry!")    
