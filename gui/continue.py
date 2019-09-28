@@ -1,8 +1,7 @@
 finish = False
 while finish == False:
-    print ("Do you want to continue ?? (Yes/No)")
 
-    m = input()
+    m = input("Do you want to continue ?? (Yes/No)")
 
     if(m =="Yes"):
         finish = False
