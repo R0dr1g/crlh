@@ -1,4 +1,3 @@
-finish = False
 while finish == False:
     print ("Do you want to continue ?? (Yes/No)")
 
