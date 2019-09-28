@@ -1,5 +1,5 @@
 print("What's your name?")
 
-name = input ()
+gui = input ()
 
-print("hello",name,"!")
+print("Hello",gui,"!")
