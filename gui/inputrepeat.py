@@ -17,5 +17,3 @@ try:
     print()
 except ValueError:
     print("Ain't a number")
-
-print("Want to continue?? (Yes/No)")
