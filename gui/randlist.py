@@ -5,4 +5,18 @@ def randintlist(len, ceiling):
         print random.randint(len, ceiling)
 
 print()
-print("")
+print("Number of potential numbers :")
+
+len = input()
+
+print()
+print("The maximum potential number :")
+
+ceiling = input()
+
+try:
+    len = int(input())
+    ceiling = int(input())
+    randintlist(len, ceiling)
+except ValueError:
+    print("Ain't a number nickel galium")
