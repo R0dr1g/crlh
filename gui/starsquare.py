@@ -1,7 +1,6 @@
 def starsquare(n):
     star = ""
     for i in range(n):
-        star += "* "
         print(star)
     return star
 
