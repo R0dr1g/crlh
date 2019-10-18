@@ -2,8 +2,8 @@ def starsquare(n):
     for i in range(n):
         str(i+1)
         star = "* "
-        print(star, i+1)
-        print("*", i+1)
+        print(star,)
+        print("*")
 
 
 print("How many stars do you want on each side?")
