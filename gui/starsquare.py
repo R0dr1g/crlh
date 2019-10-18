@@ -1,7 +1,7 @@
 def starsquare(n):
     star = ""
     for i in range(n):
-        i^2
+        str(i^2)
         star += "* "
 
     return star
