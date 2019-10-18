@@ -1,15 +1,14 @@
 def starsquare(n):
+    star = ""
     for i in range(n):
-        str(i+1)
-        star = "* "
-        print(star,)
-        print("*")
+        star += "* "
+    return star
 
 
 print("How many stars do you want on each side?")
-
+print()
 try:
     n = int(input())
-    starsquare(n)
+    print(starsquare(n))
 except ValueError:
     print("Not a number!")
