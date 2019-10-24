@@ -3,5 +3,4 @@ def count(start=0, step=1):
     while True:
         yield n
         n += step
-
-itertools.count(10)
+    return count(10)
