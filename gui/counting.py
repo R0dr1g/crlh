@@ -1,6 +1,5 @@
-def count(n):
-    for i in range(n):
-        print(str(i+1))
-
-
-print(count)
+def count(start=0, step=1):
+    n = start
+    while True:
+        yield n
+        n += step
