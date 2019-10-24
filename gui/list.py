@@ -1,14 +1,21 @@
-def printlist(mylist):
-    formatted_content = ""
-    counter = 1
-    print()
-    for elem in mylist:
-        if(counter==1):
-            formatted_content += elem
-        elif(conter == len(mylist)):
-            formatted_content += " and "+elem
-        else:
-            formatted_content +=", "+elem
-        counter = counter + 1
-    print(formatted_content)
-    print()
+list1 = ["Gui", "Gil", "Francisco", "Filipe", "David"]
+print()
+
+print("Full List :")
+print(list1)
+print()
+
+print("First Element :")
+print(list1[0])
+print()
+
+print("Last Element :")
+print(list1[-1])
+print()
+
+counter = 1
+
+for elem in list1:
+    print(str(counter), ": ", elem)
+
+    counter = counter + 1
