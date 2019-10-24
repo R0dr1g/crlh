@@ -4,4 +4,4 @@ def count(start=0, step=1):
         yield n
         n += step
 
-print(count(10))
+itertools.count(10)
