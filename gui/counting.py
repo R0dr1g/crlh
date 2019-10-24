@@ -4,4 +4,4 @@ def count(start=0, step=1):
         yield n
         n += step
 
-count(10)
+print(count(10))
