@@ -1,5 +1,13 @@
 def randintlist(len, ceiling):
-    list1 = [randint()]
+    import random
+    randomlist = list()
+
+    for i in range(len):
+        randomlist.append(random.randint(0, ceiling))
+        
+    return randomlist
+
+
 
 
 print()
