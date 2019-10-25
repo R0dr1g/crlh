@@ -12,6 +12,7 @@ def randintlist(len, ceiling):
 
 print()
 print("How many numbers do you want to generate??")
+print()
 len = input()
 print("Limit :")
 ceiling = input()
