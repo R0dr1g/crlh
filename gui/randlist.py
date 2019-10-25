@@ -4,7 +4,7 @@ def randintlist(len, ceiling):
 
     for i in range(len):
         randomlist.append(random.randint(0, ceiling))
-        
+
     return randomlist
 
 
@@ -13,10 +13,9 @@ def randintlist(len, ceiling):
 print()
 print("How many numbers do you want to generate??")
 len = input()
-print()
 print("Limit :")
-print()
 ceiling = input()
+
 
 try:
     len = int(input())
