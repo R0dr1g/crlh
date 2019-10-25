@@ -1,17 +1,13 @@
 def randintlist(len, ceiling):
-    print()
-    for i in range(len):
-        str(i+1)
-        print randint(len, ceiling)
+    list1 = [randint()]
+
 
 print()
-print("Number of potential numbers :")
-
+print("How many numbers do you want to generate??")
 len = input()
-
 print()
-print("The maximum potential number :")
-
+print("Limit :")
+print()
 ceiling = input()
 
 try:
