@@ -1,10 +1,9 @@
 def starsquare(n):
     for i in range(n):
-        print("*")
     star = ""
     for i in range(n):
         star += "*"
-    return star
+    return star n times
 
 
 print("How many stars do you want on each side?")
