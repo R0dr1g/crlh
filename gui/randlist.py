@@ -10,16 +10,15 @@ def randintlist(len, ceiling):
 
 
 
-print()
-print("How many numbers do you want to generate??")
-print()
-len = input()
-print("Limit :")
-ceiling = input()
+
 
 
 try:
+    print()
+    print("How many numbers do you want to generate?")
     len = int(input())
+    print()
+    print("Limit :")
     ceiling = int(input())
     randintlist(len, ceiling)
 except ValueError:
