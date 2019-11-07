@@ -20,6 +20,6 @@ try:
     print()
     print("Limit :")
     ceiling = int(input())
-    randintlist(len, ceiling)
+    print(randintlist(len, ceiling))
 except ValueError:
     print("Ain't a number nickel galium")
