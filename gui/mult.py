@@ -1,4 +1,7 @@
-def mult(number, ceiling):
-    for i in mult(number):
-        print(str(i+1))
-    
+
+def randmult(number, ceiling):
+    import random
+    for i in range(number):
+
+finish
+while (finish == False):
