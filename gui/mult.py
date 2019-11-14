@@ -19,6 +19,12 @@ try:
     print("Limit :")
     ceiling = int(input())
     print()
-    print(randmult(number, ceiling))
+    randquest = randmult(number, ceiling)
+    for q in randquest:
+
+        print(q)
+        answer = list()
+        answer.append(int(input()))
+    
 except ValueError:
     print("Not a number !")
