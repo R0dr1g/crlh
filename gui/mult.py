@@ -19,6 +19,6 @@ try:
     print("Limit :")
     ceiling = int(input())
     print()
-    print(randquest)
+    print(randmult)
 except ValueError:
     print("Not a number !")
