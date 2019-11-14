@@ -6,7 +6,7 @@ def randmult(number, ceiling):
         a = str(random.randint(0, ceiling))
         b = str(random.randint(0, ceiling))
         randquest = a + " x " + b
-    return randquest
+        return randquest
 
 
 
@@ -17,6 +17,6 @@ try:
     print()
     print("Limit :")
     ceiling = int(input())
-    print(randmult(number, ceiling))
+    randmult(number, ceiling)
 except ValueError:
     print("Not a number !")
