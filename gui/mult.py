@@ -19,6 +19,6 @@ while finish == False:
         print()
         print("Limit :")
         ceiling = int(input())
-        randmult(number, ceiling)
+        print(randmult(number, ceiling))
     except ValueError:
         print("Not a number !")
