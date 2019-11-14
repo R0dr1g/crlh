@@ -10,15 +10,13 @@ def randmult(number, ceiling):
 
 
 
-finish = False
-while finish == False:
-    try:
-        print()
-        print("How many mults do you want to generate?")
-        number = int(input())
-        print()
-        print("Limit :")
-        ceiling = int(input())
-        print(randmult(number, ceiling))
-    except ValueError:
-        print("Not a number !")
+try:
+    print()
+    print("How many mults do you want to generate?")
+    number = int(input())
+    print()
+    print("Limit :")
+    ceiling = int(input())
+    print(randmult(number, ceiling))
+except ValueError:
+    print("Not a number !")
