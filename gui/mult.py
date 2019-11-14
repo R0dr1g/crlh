@@ -5,7 +5,7 @@ def randmult(number, ceiling):
         a = str(random.randint(0, ceiling))
         b = str(random.randint(0, ceiling))
         randquest = a + " x " + b
-    return randquest
+    print(randquest)
 
 
 
