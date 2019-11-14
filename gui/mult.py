@@ -25,9 +25,7 @@ try:
         print(q)
         answer = list()
         answer.append(int(input()))
-    if (answer == a*b):
-        print("Correct!")
-    else:
-        print("Nabruh")
+    gui = randmult(number, ceiling)
+    
 except ValueError:
     print("Not a number !")
