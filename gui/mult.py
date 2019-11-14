@@ -25,6 +25,9 @@ try:
         print(q)
         answer = list()
         answer.append(int(input()))
-    
+    if (answer == a*b):
+        print("Correct!")
+    else:
+        print("Nabruh")
 except ValueError:
     print("Not a number !")
