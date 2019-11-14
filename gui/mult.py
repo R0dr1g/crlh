@@ -1,10 +1,13 @@
 
 def randmult(number, ceiling):
     import random
+    randquest = list()
     for i in range(number):
         a = str(random.randint(0, ceiling))
         b = str(random.randint(0, ceiling))
-        print(a + " x " + b)
+        randquest.append(a + " x " + b)
+    return randquest
+
 
 
 
