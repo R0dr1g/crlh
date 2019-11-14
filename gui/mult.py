@@ -10,7 +10,7 @@ def randmult(number, ceiling):
 
 
 
-finish
+finish = False
 while finish == False:
     try:
         print()
