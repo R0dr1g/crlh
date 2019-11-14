@@ -4,8 +4,7 @@ def randmult(number, ceiling):
     for i in range(number):
         a = str(random.randint(0, ceiling))
         b = str(random.randint(0, ceiling))
-        randquest = a + " x " + b
-    print(randquest)
+        print(a + " x " + b)
 
 
 
