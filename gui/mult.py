@@ -26,7 +26,8 @@ try:
         answer = list()
         answer.append(int(input()))
     gui = randmult(number, ceiling)
-    for a in randquest:
+    for a in gui:
+        
         correction = list()
         correction.append(a*b)
 
