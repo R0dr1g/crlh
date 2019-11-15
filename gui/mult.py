@@ -15,9 +15,9 @@ try:
     print("Limit :")
     ceiling = int(input())
     print()
-    randquest = randmult(a, b)
+    randquestion = randmult(a, b)
 
-    for q in randquest:
+    for q in randquestion:
         a = str(random.randint(0, ceiling))
         b = str(random.randint(0, ceiling))
         print(q)
