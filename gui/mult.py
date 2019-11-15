@@ -26,6 +26,9 @@ try:
         answer = list()
         answer.append(int(input()))
     gui = randmult(number, ceiling)
-    
+    for a in randquest:
+        correction = list()
+        correction.append(a*b)
+
 except ValueError:
     print("Not a number !")
