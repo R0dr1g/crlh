@@ -1,24 +1,23 @@
 
 def randmult(a, b):
-    import random
     randquest = (a + " x " + b)
     return randquest
 
 
 
-
 try:
+    import random
     print()
     print("How many mults do you want to generate?")
-    number = int(input())
+    number = input()
     print()
     print("Limit :")
     ceiling = int(input())
     print()
 
     for q in number:
-        a = str(random.randint(0, ceiling))
-        b = str(random.randint(0, ceiling))
+        a = int(str(random.randint(0, ceiling)))
+        b = int(str(random.randint(0, ceiling)))
         print(randmult(a, b))
         answer = list()
         answer.append(int(input()))
