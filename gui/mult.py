@@ -1,8 +1,7 @@
 
-def randmult(number, ceiling):
+def randmult(a,b):
     import random
-    randquest = list()
-    randquest.append(a + " x " + b)
+    randquest = (a + " x " + b)
     return randquest
 
 
@@ -16,7 +15,7 @@ try:
     print("Limit :")
     ceiling = int(input())
     print()
-    randquest = randmult(number, ceiling)
+    randquest = randmult(a,b)
 
     for q in randquest:
         a = str(random.randint(0, ceiling))
@@ -24,7 +23,7 @@ try:
         print(q)
         answer = list()
         answer.append(int(input()))
-    gui = randmult(number, ceiling)
+    gui = randmult(a,b)
     for a in gui:
 
         correction = list()
