@@ -15,12 +15,11 @@ try:
     print("Limit :")
     ceiling = int(input())
     print()
-    randquestion = list()
 
-    for q in randquestion:
+    for q in number:
         a = str(random.randint(0, ceiling))
         b = str(random.randint(0, ceiling))
-        print(q)
+        print(randmult(a, b))
         answer = list()
         answer.append(int(input()))
         correction = list()
