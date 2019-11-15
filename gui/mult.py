@@ -23,9 +23,6 @@ try:
         print(q)
         answer = list()
         answer.append(int(input()))
-    gui = randmult(a, b)
-    for a in gui:
-
         correction = list()
         correction.append(a*b)
 
