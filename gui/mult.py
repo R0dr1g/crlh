@@ -2,10 +2,7 @@
 def randmult(number, ceiling):
     import random
     randquest = list()
-    for i in range(number):
-        a = str(random.randint(0, ceiling))
-        b = str(random.randint(0, ceiling))
-        randquest.append(a + " x " + b)
+    randquest.append(a + " x " + b)
     return randquest
 
 
@@ -20,14 +17,16 @@ try:
     ceiling = int(input())
     print()
     randquest = randmult(number, ceiling)
-    for q in randquest:
 
+    for q in randquest:
+        a = str(random.randint(0, ceiling))
+        b = str(random.randint(0, ceiling))
         print(q)
         answer = list()
         answer.append(int(input()))
     gui = randmult(number, ceiling)
     for a in gui:
-        
+
         correction = list()
         correction.append(a*b)
 
