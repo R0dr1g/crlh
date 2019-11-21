@@ -22,6 +22,6 @@ try:
 
     def allansw(a, b, c)):
         for i in range(c):
-            correct = ("Q" + str(i+1))
+            correct = ("Q" + str(i+1) + )
 except ValueError:
     print("Not a number !")
