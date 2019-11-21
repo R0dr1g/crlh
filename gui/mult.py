@@ -1,28 +1,27 @@
-
-def randmult(a, b):
-    randquest = (a + " x " + b)
-    return randquest
-
-
-
 try:
-    import random
     print()
-    print("How many mults do you want to generate?")
-    number = input()
+    print("Number of questions :")
+    number = int(input())
     print()
-    print("Limit :")
+    print("Ceiling :")
     ceiling = int(input())
     print()
+    def randmult(a, b):
+        randquest = ("How much is " + str(a) + " x " + str(b) + "?")
+        return randquest
 
-    for q in number:
-        a = int(str(random.randint(0, ceiling)))
-        b = int(str(random.randint(0, ceiling)))
+    for q in range(number):
+        import random
+        a = int((random.randint(0, ceiling)))
+        b = int((random.randint(0, ceiling)))
         print(randmult(a, b))
         answer = list()
         answer.append(int(input()))
         correction = list()
         correction.append(a*b)
 
+    def allansw(a, b, c)):
+        for i in range(c):
+            correct = ("Q" + str(i+1))
 except ValueError:
     print("Not a number !")
