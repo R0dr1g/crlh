@@ -6,9 +6,12 @@ try:
     print("Ceiling :")
     ceiling = int(input())
     print()
-    def randmult(a, b):
-        randquest = ("How much is " + str(a) + " x " + str(b) + "?")
-        return randquest
+    yyy = list()
+    for i in range(number):
+        def randmult(a, b):
+            randquest = ("How much is " + str(a) + " x " + str(b) + "?")
+            yyy.append(randquest)
+            return randquest
     answer = list()
     correction = list()
     for q in range(number):
@@ -18,18 +21,18 @@ try:
         print(randmult(a, b))
         answer.append(int(input()))
         correction.append(a*b)
-
-    def corasnw():
-        correct = ("Q" + str(i+1) + ") " + str(a) + " x " + str(b) + " User answered " + str(answer[i]) + ". The answer was correct!")
+    def coransw(a, b):
+        correct = ("Q" + str(i+1) + ") " + str(yyy[i]) + " User answered " + str(answer[i]) + ". The answer was correct!")
         return correct
-    def wrongans():
-        wrong = ("Q" + str(i+1) + ") " + randmult(a, b) + " User answered " + str(answer[i]) + ". The answer was wrong.")
+    def wrongans(a, b):
+        wrong = ("Q" + str(i+1) + ") " + str(yyy[i]) + " User answered " + str(answer[i]) + ". The answer was wrong.")
         return wrong
     print()
     for i in range(number):
-        if (answer == correction):
-            print(coransw())
-        if (answer != correction):
-            print(wrongans())
+        if (answer[i] == correction[i]):
+            print(coransw(a, b))
+        if (answer[i] != correction[i]):
+            print(wrongans(a, b))
+    print()
 except ValueError:
     print("Not a number !")
