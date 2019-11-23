@@ -21,6 +21,7 @@ try:
         print(randmult(a, b))
         answer.append(int(input()))
         correction.append(a*b)
+    counter = 0
     def coransw(a, b):
         correct = ("Q" + str(i+1) + ") " + str(yyy[i]) + " User answered " + str(answer[i]) + ". The answer was correct!")
         return correct
@@ -31,8 +32,14 @@ try:
     for i in range(number):
         if (answer[i] == correction[i]):
             print(coransw(a, b))
+            counter +=1
         if (answer[i] != correction[i]):
             print(wrongans(a, b))
+
+    def score():
+        zzz = (str(counter) + "/" + str(number))
+        return zzz
     print()
+    print(score())
 except ValueError:
     print("Not a number !")
