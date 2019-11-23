@@ -15,6 +15,6 @@ try:
     def sortint():
         sortlist.sort()
         return sortlist
-    print("Here is the list sorted in ascending order :" + str(sortint()))
+    print("Here is the list sorted in ascending order: " + str(sortint()))
 except ValueError:
     print("Not an integer!")
