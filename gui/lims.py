@@ -1,10 +1,10 @@
 import math
 import random
 x_vals = list()
-print("f(x) = sin(x), x = ")
+print("f(x) = 2x, x = ")
 x_vals.append(int(input()))
 def func(x):
-    return (math.sin(x))
+    return 2*x
 
 for x in x_vals:
     print("x : " + str(x))
