@@ -35,7 +35,8 @@ print()
 newage = [s1.changeage(), s2.changeage(), s3.changeage(), s4.changeage(), s5.changeage(), s6.changeage(), s7.changeage(), s8.changeage(), s9.changeage(), s10.changeage()]
 print("Do you want to change their age? (Yes/No)")
 chan = input()
+print()
 if (chan == "Yes"):
-    print(newage)
+    print(newage[nem-1])
 if (chan == "No"):
-    print(fu12)
+    print("K den")
