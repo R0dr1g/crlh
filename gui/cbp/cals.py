@@ -6,10 +6,14 @@ class Student:
         self.age = int(age)
 
     def present(self):
-         print("Hello, my name is " + str(self.name) + " i'm in class " + str(self.cless) + " and i'm " + str(self.age) + " years old!")
+         return "Hello, my name is " + str(self.name) + \
+          " i'm in class " + str(self.cless) + " and i'm " + \
+           str(self.age) + " years old!"
 
     def changeage(self):
-        return self.age + 1
+        return "Hello, my name is " + str(self.name) + \
+         " i'm in class " + str(self.cless) + " and i'm " + \
+          str(self.age + 1) + " years old!"
 
 s1 = Student("Jerry", "S4Pta",13)
 s2 = Student("Richard", "S5Nea",14)
@@ -24,6 +28,14 @@ s10 = Student("Guilherme", "S3Lit",17)
 
 print("Student : (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)")
 nem = int(input())
-fu12 = list()
-for i in range(nem):
-    fu12.append(s[i+1].present())
+print()
+fu12 = [s1.present(), s2.present(), s3.present(), s4.present(), s5.present(), s6.present(), s7.present(), s8.present(), s9.present(), s10.present()]
+print(fu12[nem-1])
+print()
+newage = [s1.changeage(), s2.changeage(), s3.changeage(), s4.changeage(), s5.changeage(), s6.changeage(), s7.changeage(), s8.changeage(), s9.changeage(), s10.changeage()]
+print("Do you want to change their age? (Yes/No)")
+chan = input()
+if (chan == "Yes"):
+    print(newage)
+if (chan == "No"):
+    print(fu12)
