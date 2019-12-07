@@ -39,4 +39,4 @@ print()
 if (chan == "Yes"):
     print(newage[nem-1])
 if (chan == "No"):
-    print("K den")
+    print("ait")
